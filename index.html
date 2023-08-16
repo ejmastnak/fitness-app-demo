@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en" class="h-screen">
+
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="/css/tailwind.css" rel="stylesheet" />
+    <title>Fitness app demo</title>
+  </head>
+
+  <body>
+
+    <div class="max-w-2xl mx-auto min-h-screen flex flex-col">
+
+      <!-- Heading -->
+      <div class="text-center p-8">
+        <h1 class="mx-auto font-extralight text-black text-4xl">Here is a video demo</h1>
+        <p class="mt-1 text-gray-500 text-xs">(with a short description below)</p>
+      </div>
+
+      <!-- Video -->
+      <div class="w-full max-w-sm mx-auto p-2 sm:p-8">
+        <video style="height: auto;" class="w-full mx-auto rounded-3xl" controls>
+          <source src="video/demo.mp4" type="video/mp4">
+            Your browser does not support the HTML video tag.
+        </video>
+      </div>
+
+      <!-- Description -->
+      <div class="mt-4 text-sm xs:text-base p-4 xs:p-8">
+        <h2 class="text-xl xs:text-2xl">The video shows...</h2>
+        <p class="mt-2 text-gray-700">
+          An unbranded version of the mobile app, made for my Mom to help her remember her workouts. 
+          The app displays her training program routines and videos of the constituent exercises.
+        </p>
+
+        <h2 class="mt-8 text-xl xs:text-2xl">The app...</h2>
+        <p class="mt-2 text-gray-700">
+          Helps a client remember their training program and see how to correctly perform the exercises therein.
+          It does not (at the moment) provide tracking of training volume or nutrition, but these features could certainly be added.
+        </p>
+
+        <h2 class="mt-12 text-xl xs:text-2xl">If we were to work together</h2>
+        <div class="ml-1 text-gray-700">
+          <p class="mt-4"><span class="font-semibold">I provide:</span></p>
+          <ul class="list-disc mt-2 ml-6">
+            <li class="mt-1">
+              A mobile app, with your company's design and branding, that your clients use to display their personalized training programs on their phones.
+            </li>
+            <li class="mt-1">
+              An administrative web app for you to create training programs, including personalized programs for each client.
+            </li>
+          </ul>
+          <p class="mt-4"><span class="font-semibold">You provide:</span> a library of the exercises and videos you want to use in your training programs.</p>
+        </div>
+      </div>
+
+      <!-- Footer with copyright -->
+      <div class="mt-auto text-sm sm:text-base px-8 py-2 text-gray-400 flex gap-x-2 border-t border-gray-200">
+        <p>©2023</p>
+        <p>Elijan J. Mastnak</p>
+        <a href="mailto:elijan@ejmastnak.com">elijan@ejmastnak.com</a>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
